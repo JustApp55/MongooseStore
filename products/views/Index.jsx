@@ -2,7 +2,7 @@ const React = require('react')
 
 class Index extends React.Component {
     render() {
-        const {product} = this.props;
+        //const {product} = this.props;
 
         return (
             <html lang="en">
@@ -15,15 +15,26 @@ class Index extends React.Component {
              <body  style={{backgroundImage: 'url()'}} >
                 
                 <div style={{textTransform: 'capitalize'}}>
-                <h1>Products Index Page</h1>
+                <h1 style={{color: '#8ac926'}}>Products Index Page</h1>
                 <br/>
-              <nav style={{fontSize: 'large'}}>
-                    <a href="/products/new" style={{color: 'green'}} >Create A New Product!</a>
-              </nav>
-
-                
-
-
+              <nav style={{fontSize: 'x-large'}}>
+                    <a href="/products/new" style={{color: '#2ec4b6'}} >Create A New Product</a>
+              </nav> <br/>
+               <ul>
+                   {
+                       this.props.products.map((product, i)=>{
+                           return(
+                               <li key={i}>
+                                   <a href={`/products/${ product.id }`}>{ product.name }</a> <br/>
+                                  Qty: { product.qty}
+                                 
+                                   {/* <a href={`/products/${ products.id}`}> </a> */}
+                               </li>
+                           )
+                       }
+                       )
+                   }
+               </ul>
 
                 </div>
              </body>
