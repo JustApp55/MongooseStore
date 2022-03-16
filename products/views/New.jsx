@@ -15,7 +15,7 @@ class New extends React.Component {
       Name: <input type="text" name="name" /><br/>
       Description: <input type="text" name="description" /><br/>
       Image URL: <input type="text" name="img" /><br/>
-      Price: <input type="number" name="price" min="0" step="0.01" /><br/>
+      Price: $<input type="number" name="price" step="0.01" min="0" /><br/>
       Quantity: <input type="number" name="qty" min="0"/><br/>
                 <br/>
       <input type="submit" name="" value="Create Product"/>

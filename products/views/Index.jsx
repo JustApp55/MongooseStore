@@ -17,7 +17,7 @@ class Index extends React.Component {
 
                 <div style={{textTransform: 'capitalize'}}>
                 <nav style={{fontSize: 'xx-large'}}>
-                <h1 style={{color: '#f72585'}}>Trendyn Łyn</h1>
+                <h1 style={{color: '#f72585'}}>Trendyn WęäR</h1>
                 </nav> 
                 {/* <nav style={{fontSize: 'large'}}> */}
                     <a href="/products/new" style={{color: '#b5179e'}} >Create A New Product</a>
@@ -26,7 +26,7 @@ class Index extends React.Component {
                    {
                        this.props.products.map((product, i)=>{
                            return(
-                               <li key={i} style={{padding: '25px 170px 25px'}}> 
+                               <li key={i} style={{padding: '25px 50px 0px'}}> 
                                    <a href={`/products/${ product.id }`}> { product.name }</a> <br/> <br/>
                                    <a href={`/products/${ product.id}`}> <img src={product.img} style={{height:'150px', width: '150px'}}/> </a> <br/>
                                     Price: ${product.price} <br/>

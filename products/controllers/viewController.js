@@ -7,6 +7,9 @@ const viewController = {
   show(req, res, next){
     res.render('Show', res.locals.data)
   },
+  new(req, res, next){
+    res.render('New')
+  },
   edit(req, res, next){
     res.render('Edit', res.locals.data)
   },

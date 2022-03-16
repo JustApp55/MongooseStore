@@ -14,7 +14,7 @@ class Show extends React.Component {
                 
                 <div style={{textTransform: 'capitalize'}}>
                 <nav style={{padding: '25px 70px 0'}}>
-                  <h1 style={{fontSize: 'xx-large'}}>Show Page</h1>
+                  <h1 style={{fontSize: 'xx-large'}}>Show Pagë</h1>
                   <br/><br/><br/>
                     Item: { this.props.product.name } <br/> Price: ${ this.props.product.price } <br/>
                     Description: { this.props.product.description } <br/> Quantity: { this.props.product.qty > 0 ? `${this.props.product.qty} (in stock)` : `(Out of Stock)`} 

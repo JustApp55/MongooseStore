@@ -8,8 +8,12 @@ const dataController = require('./dataController.js')
 router.get('/', dataController.index, viewController.index);
 // Delete
 router.delete('/:id', dataController.destroy, viewController.redirectHome);
+//New
+router.get('/new', viewController.new);
 // Update
 router.put('/:id', dataController.update, viewController.redirectShow);
+//buy
+router.patch('/:id', dataController.buy, viewController.redirectShow)
 // Create
 router.post('/', dataController.create, viewController.redirectHome);
 // Edit
