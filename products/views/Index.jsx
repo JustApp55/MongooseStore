@@ -10,32 +10,38 @@ class Index extends React.Component {
              <meta charset="UTF-8" />
              <meta http-equiv="X-UA-Compatible" content="IE=edge" />
              <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-             <title>ProductŁyn</title>
+             <title>Product Index Page</title>
              </head>
              <body  style={{backgroundImage: 'url()'}} >
-                
+             <link rel="stylesheet" href="/css/app.css"/>
+
                 <div style={{textTransform: 'capitalize'}}>
-                <h1 style={{color: '#8ac926'}}>Products Index Page</h1>
-                <br/>
-              <nav style={{fontSize: 'x-large'}}>
-                    <a href="/products/new" style={{color: '#2ec4b6'}} >Create A New Product</a>
-              </nav> <br/>
+                <nav style={{fontSize: 'xx-large'}}>
+                <h1 style={{color: '#f72585'}}>Trendyn Łyn</h1>
+                </nav> 
+                {/* <nav style={{fontSize: 'large'}}> */}
+                    <a href="/products/new" style={{color: '#b5179e'}} >Create A New Product</a>
+              {/* </nav> <br/> */}
                <ul>
                    {
                        this.props.products.map((product, i)=>{
                            return(
-                               <li key={i}>
-                                   <a href={`/products/${ product.id }`}>{ product.name }</a> <br/>
-                                  Qty: { product.qty}
+                               <li key={i} style={{padding: '25px 170px 25px'}}> 
+                                   <a href={`/products/${ product.id }`}> { product.name }</a> <br/> <br/>
+                                   <a href={`/products/${ product.id}`}> <img src={product.img} style={{height:'150px', width: '150px'}}/> </a> <br/>
+                                    Price: ${product.price} <br/>
+                                    Qty: {product.qty}
+                                    <br/><br/>
                                  
-                                   {/* <a href={`/products/${ products.id}`}> </a> */}
+                                  
                                </li>
                            )
                        }
                        )
                    }
-               </ul>
-
+               
+               
+              </ul>
                 </div>
              </body>
             </html>

@@ -2,7 +2,6 @@ const React = require('react')
 
 class Show extends React.Component {
     render() {
-        const product = this.props.product
         return (
             <html lang="en">
              <head>
@@ -14,24 +13,40 @@ class Show extends React.Component {
              <body  style={{backgroundImage: 'url()'}} >
                 
                 <div style={{textTransform: 'capitalize'}}>
-                  <h1>Product  Łyn</h1>
-                    { this.props.product.name }: ${ this.props.product.price } <br/>
-                    { this.props.product.description } 
+                <nav style={{padding: '25px 70px 0'}}>
+                  <h1 style={{fontSize: 'xx-large'}}>Show Page</h1>
+                  <br/><br/><br/>
+                    Item: { this.props.product.name } <br/> Price: ${ this.props.product.price } <br/>
+                    Description: { this.props.product.description } <br/> Quantity: { this.props.product.qty > 0 ? `${this.props.product.qty} (in stock)` : `(Out of Stock)`} 
                     <br/> <br/> 
-                  <img src={`${product.img}.jpg`} style={{borderRadius: '25px'}}></img>
-                    <br/><br/>
-                    <a href={`/products/${product._id}/edit`}>Edit This Product</a> 
+                  <img src={this.props.product.img} style={{height:'300px', width: '300px'}}></img>
                     <br/>
-                  <form action={`/products/${product._id}?_method=DELETE`} method="POST">
-                         <input type="submit" value="DELETE"/>
+                    <form action={`/products/${this.props.product._id}?_method=PATCH`} method="POST">
+                         <input type="submit" value="BUŸ - JústDøIt"/>
                   </form>
-                        <br/>
-                    <a href='/products'>Back</a>
+                  <br/><br/><br/>
+                    <a href={`/products/${this.props.product._id}/edit`}><button>Edit Product</button></a> 
+                   
+                    <br/>
+                    <br/>
+                  <form action={`/products/${this.props.product._id}?_method=DELETE`} method="POST">
+                         <input type="submit" value="DEŁETĘ"/>
+                  </form>
+                        <br/><br/><br/>
+                 
+                    <a href='/products'><button>Båçk</button></a>
+                    </nav>
                 </div>
-             </body>
-            </html>   
-        )
-    }
-}
+                </body>
+            </html> 
+                )
+               } 
+            }
+        
+
+
 
 module.exports  = Show
+
+
+
