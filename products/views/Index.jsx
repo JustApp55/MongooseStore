@@ -13,9 +13,10 @@ class Index extends React.Component {
              <title>Product Index Page</title>
              </head>
              <body  style={{backgroundImage: 'url()'}} >
-             <link rel="stylesheet" href="/css/app.css"/>
+             <link rel="stylesheet" href="public/css/app.css"/>
+             {/* style={{textTransform: 'capitalize'}} */}
 
-                <div style={{textTransform: 'capitalize'}}>
+                <div id="grid">
                 <nav style={{fontSize: 'xx-large'}}>
                 <h1 style={{color: '#f72585'}}>Trendyn WęäR</h1>
                 </nav> 

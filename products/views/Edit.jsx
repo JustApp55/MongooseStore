@@ -8,11 +8,11 @@ class Edit extends React.Component{
        
         <body  style={{backgroundImage: 'url()'}} >
 
-        <link rel="stylesheet" href="/css/app.css"/> 
+        <link rel="stylesheet" href="public/css/app.css"/> 
           <div style={{textTransform: 'capitalize'}}>
           <nav  style={{padding: '25px 70px 0'}}>
         {/* <DefaultLayout title="Edit Page">      */}
-        <link rel="stylesheet" href="/css/app.css"/> 
+        <link rel="stylesheet" href="public/css/app.css"/> 
         <h1 style={{fontSize: 'xx-large'}}>Edìt Pagë</h1>
         <br/><br/><br/>
         

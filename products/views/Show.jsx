@@ -11,9 +11,11 @@ class Show extends React.Component {
              <title>Product-Łyn</title>
              </head>
              <body  style={{backgroundImage: 'url()'}} >
-                
+             <link rel="stylesheet" href="public/css/app.css"/> 
+
                 <div style={{textTransform: 'capitalize'}}>
                 <nav style={{padding: '25px 70px 0'}}>
+                  
                   <h1 style={{fontSize: 'xx-large'}}>Show Pagë</h1>
                   <br/><br/><br/>
                     Item: { this.props.product.name } <br/> Price: ${ this.props.product.price } <br/>
@@ -21,9 +23,15 @@ class Show extends React.Component {
                     <br/> <br/> 
                   <img src={this.props.product.img} style={{height:'300px', width: '300px'}}></img>
                     <br/>
-                    <form action={`/products/${this.props.product._id}?_method=PATCH`} method="POST">
-                         <input type="submit" value="BUŸ - JústDøIt"/>
-                  </form>
+
+                    
+                  <form action={`/products/${this.props.product._id}?_method=PATCH`} method="POST">
+                    { this.props.product.qty > 0 ? 
+                    <input id="buy" type="submit" value="BUŸ - JústDøIt"/> : null }
+                  </form> 
+                
+
+
                   <br/><br/><br/>
                     <a href={`/products/${this.props.product._id}/edit`}><button>Edit Product</button></a> 
                    
