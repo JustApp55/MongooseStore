@@ -38,6 +38,7 @@
 .bottom {
     color: black;
     border-radius: 8px;
+    font-size: 25px;
 }
 
 .text {
@@ -58,9 +59,13 @@
 } */
 
 #bar {
-    font-size: 50px; 
+    font-size: 70px; 
     text-align: center;
     color: #d100d1;
+}
+
+#showT {
+    font-size: 30px; 
 }
 
 #cent {
@@ -68,8 +73,8 @@
 }
 
 #buy {
-    position: fixed; right: 680px; top: 610px;
-    background-color: #4CAF50;
+    position: fixed; left: 895px; top: 950px;
+    background-color: #09a80b;
     color: white;
     border-radius: 8px;
     font-size: 15px;
@@ -77,14 +82,15 @@
 }
 
 #btn {
-    position: fixed; left: 20px; top: 400px;
-    border-radius: 8px; 
+    position: fixed; left: 180px; bottom: 120px;
+    border-radius: 6px; 
+    font-size: 25px;
 }
 
 #back {
-    position: fixed; left: 20px; bottom: 50px;
-    border-radius: 8px;
-    font-size: 15px;
+    position: fixed; left: 180px; top: 75px;
+    border-radius: 6px;
+    font-size: 25px;
 }
 
 

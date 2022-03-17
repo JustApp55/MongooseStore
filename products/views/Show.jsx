@@ -22,14 +22,15 @@ class Show extends React.Component {
                   <br/><br/><br/>
 
                   <nav id="cent">
+                      <div id="showT">
                     Item: { this.props.product.name } <br/> 
                     Price: ${ this.props.product.price } <br/>
                     Description: { this.props.product.description } <br/> 
                     Quantity: { this.props.product.qty > 0 ? `${this.props.product.qty} (in stock)` : `(Out of Stock)`} 
-                  
+                    </div>
 
                     <br/> <br/> 
-                  <img src={this.props.product.img} style={{height:'300px', width: '300px'}}></img>
+                  <img src={this.props.product.img} style={{height:'500px', width: '500px'}}></img>
                   </nav>
                       <br/>
                 
@@ -46,7 +47,7 @@ class Show extends React.Component {
                       </nav>
                         <br/><br/>
 
-                  <a href='/products'><button id="back">Båçk</button></a>
+                  <a href='/products'><button id="back">Home</button></a>
                             <br/><br/>
 
                         <nav id="buy">
