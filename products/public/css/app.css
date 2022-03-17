@@ -1,0 +1,144 @@
+#body {
+    background-color: #ffc6ff;
+    /* background-image: url(https://cdn.shopify.com/s/files/1/0028/3738/1209/files/Untitled_design_25_480x480.png?v=1611770120); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    
+}
+
+#zero {
+
+}
+
+.bam {
+    color: #d100d1;
+    text-align: center;
+    font-size: 80px; 
+}
+
+.oneul {
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px;
+    list-style-type: none;
+}
+
+.twoli {
+    padding: 25px 50px 10px 90px;
+    flex: 1 0 30%;
+    border: 15px solid #978ae2;
+    
+}
+
+.bot {
+    padding: 5px 40px ;
+    color: rgb(62, 236, 43)
+}
+
+.bottom {
+    color: black;
+    border-radius: 8px;
+}
+
+.text {
+    font-size: 23px;
+    color: #03071e;
+}
+
+/* ///////////////////// Show Page //////////////////////////////////////// */
+
+#bodyS {
+    background-color: #ffc6ff;
+}
+
+
+
+/* #showd {
+    padding: 25px 30px 10px 30px; 
+} */
+
+#bar {
+    font-size: 50px; 
+    text-align: center;
+    color: #d100d1;
+}
+
+#cent {
+    padding: 25px 50px 10px 700px; 
+}
+
+#buy {
+    position: fixed; right: 680px; top: 610px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 8px 20px;
+}
+
+#btn {
+    position: fixed; left: 20px; top: 400px;
+    border-radius: 8px; 
+}
+
+#back {
+    position: fixed; left: 20px; bottom: 50px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+
+/* ///////////////////// Edit Page /////////////////////////////// */
+
+#style {
+    background-color: #bfdbf7;
+}
+
+#edd{
+    font-size: 50px; 
+    text-align: center;
+}
+
+#kul{
+   font-size: 25px;
+}
+
+input {
+    padding: 10px 25px 20px 30px;
+    font-size: 15px;
+    padding: 5px 25px;
+}
+
+#high {
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 8px 20px;
+}
+
+
+/* /////////////////// New Page ////////////////// */
+
+#url {
+    background-color: #bfdbf7;
+}
+
+#heada {
+    font-size: 50px; 
+    text-align: center;
+}
+
+#can {
+    font-size: 25px;
+}
+
+input {
+    padding: 10px 25px 20px 30px;
+    font-size: 15px;
+    padding: 5px 25px;
+}
+
+#below {
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 8px 20px;
+}
