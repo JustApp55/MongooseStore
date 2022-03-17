@@ -30,7 +30,7 @@ app.use(express.static('public')); // Allows us to have Static Files
 app.use('/products', require('./controllers/routeController.js')); // Mounts our RESTFUL/INDUCES ROUTES at /fruits
 
 app.get('/', (req, res)=>{
-    res.redirect('/products')
+    res.redirect('/products') 
 })
 
 
