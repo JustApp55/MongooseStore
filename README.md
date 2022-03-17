@@ -15,10 +15,10 @@ Buttons on Show Page
 Usage of the buttons
 
     Click on Edit button to edit product, 
-    ![Edit Page to update product!](/images/edit.png "Edit Page")
+![Edit Page to update product!](/images/edit.png "Edit Page")
 
     Click on Create New Product button on Index Page to take you to List New Item page
-    ![List New Item page to list new product!](/images/new.png "List New Item page")
+![List New Item page to list new product!](/images/new.png "List New Item page")
 
    - Click on the Home button to take you back to the Index page for further exploration
    - Click on Delete button to remove product 
