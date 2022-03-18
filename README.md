@@ -7,7 +7,7 @@ A display of all products on Index Page
     ![Index Page of Products!](/public/images/index.png "Index Page")
 
 On Index page, click on any image of your preference to know more or purchase and will be taking to the Show Page
-    ![Show Page of individual product!](/images/show.png "Index Page")
+    ![Show Page of individual product!](/public/images/show.png "Index Page")
 
 Buttons on Show Page
     ![Buttons on Show Page!](/public/images/buttons.png "Buttons")
@@ -25,7 +25,7 @@ Usage of the buttons
    - Click on BUY button which will decrease the inventory by one.
 
 ### A video explaining my code
-![Video of code and app!](/public/Project2.mp4 "Project2 Video")
+[![Watch the video](/public/images/index.png)](https://youtu.be/itTqhYzjaEY)
        
 
 ## Built With
