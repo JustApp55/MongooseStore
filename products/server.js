@@ -27,7 +27,7 @@ app.use((req, res, next) => {
 app.use(express.urlencoded({ extended: true })) // Creates req.body
 app.use(methodOverride('_method')); // Allows us to override methods
 app.use(express.static('public')); // Allows us to have Static Files
-app.use('/products', require('./controllers/routeController.js')); // Mounts our RESTFUL/INDUCES ROUTES at /fruits
+app.use('/products', require('./controllers/routeController.js')); // Mounts our RESTFUL/INDUCES ROUTES at /products
 
 app.get('/', (req, res)=>{
     res.redirect('/products') 
@@ -56,11 +56,30 @@ app.listen(PORT, () => {
 
 
 
-//model: structure 
-//veiw: presentation
-//view engine: what pushes the data for ppl to see it
-//controller: the place where we keep all the route...handles all the highways and byways of the paths
-//middleware: the request of the response cycle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -214,3 +233,9 @@ app.listen(PORT, () => {
 // app.listen(PORT, ()=> {
 //     console.log('listening on port', PORT)
 // })
+
+//model: structure 
+//veiw: presentation
+//view engine: what pushes the data for ppl to see it
+//controller: the place where we keep all the route...handles all the highways and byways of the paths
+//middleware: the request of the response cycle

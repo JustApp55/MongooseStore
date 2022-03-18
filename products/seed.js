@@ -6,7 +6,7 @@ const productSeed = [
     {
         name: 'Iriza Plume',
                 description: 'Leather Brown Ballet Flats: (Sz US 7.5)',
-                img: 'https://img-static.tradesy.com/item/30886396/dior-blackgold-walk-n-dior-mizza-embroidered-cotton-low-sneakers-size-eu-38-approx-us-8-regular-m-b-0-1-650-650',
+                img: 'https://img-static.tradesy.com/item/30209967/christian-louboutin-brown-iriza-plume-studded-flats-size-eu-37-approx-us-7-narrow-aa-n-0-0-650-650.jpg',
                 price: $550,
                 qty: 3
             }, {

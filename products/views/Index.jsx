@@ -19,19 +19,19 @@ class Index extends React.Component {
                <div id="zero">
 
                  <nav>
-                    <h1 class="bam" >Trendyn WęäR</h1>
+                    <h1 className="bam" >Trendyn WęäR</h1>
                  </nav> 
               
 
-               <ul class="oneul" >
+               <ul className="oneul" >
                    {
                        this.props.products.map((product, i)=>{
                            return(
-                               <li key={i} class="twoli"> 
-                                   <a class="text" href={`/products/${ product.id }`}> <nav class="text">{ product.name }</nav></a> <br/> <br/>
+                               <li key={i} className="twoli"> 
+                                   <a className="text" href={`/products/${ product.id }`}> <nav className="text">{ product.name }</nav></a> <br/> <br/>
                                    <a href={`/products/${ product.id}`}> <img src={product.img} style={{height:'250px', width: '250px'}}/> </a> <br/>
-                                    <nav class="text">Price: ${product.price} </nav> 
-                                    <nav class="text">Qty: {product.qty}</nav> 
+                                    <nav className="text">Price: ${product.price} </nav> 
+                                    <nav className="text">Qty: {product.qty}</nav> 
                                     <br/><br/>
                                  
                                   
@@ -44,8 +44,8 @@ class Index extends React.Component {
                
               </ul>
 
-               <nav  class="bot">
-               <a href="/products/new" style={{color: '#b5179e'}}><button  class="bottom" >Create New Product</button></a>
+               <nav  className="bot">
+               <a href="/products/new" style={{color: '#b5179e'}}><button  className="bottom" >Create New Product</button></a>
               </nav>
                 </div>
              </body>
