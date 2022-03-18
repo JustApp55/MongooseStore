@@ -4,21 +4,21 @@ A product inventory manager with full CRUD using Mongoose
 
 ## Usage of the website
 A display of all products on Index Page
-    ![Index Page of Products!](/images/index.png "Index Page")
+    ![Index Page of Products!](/public/images/index.png "Index Page")
 
 On Index page, click on any image of your preference to know more or purchase and will be taking to the Show Page
     ![Show Page of individual product!](/images/show.png "Index Page")
 
 Buttons on Show Page
-    ![Buttons on Show Page!](/images/buttons.png "Buttons")
+    ![Buttons on Show Page!](/public/images/buttons.png "Buttons")
 
 Usage of the buttons
 
     Click on Edit button to edit product, 
-![Edit Page to update product!](/images/edit.png "Edit Page")
+![Edit Page to update product!](/public/images/edit.png "Edit Page")
 
     Click on Create New Product button on Index Page to take you to List New Item page
-![List New Item page to list new product!](/images/new.png "List New Item page")
+![List New Item page to list new product!](/public/images/new.png "List New Item page")
 
    - Click on the Home button to take you back to the Index page for further exploration
    - Click on Delete button to remove product 
