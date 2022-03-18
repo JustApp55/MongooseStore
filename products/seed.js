@@ -1,5 +1,6 @@
-require('dotenv').config()
+require('dotenv').config()  
 const Product = require('./models/products.js')
+const mongoose = require('mongoose')
 const db = require('./models/db')
 
 const productSeed = [
