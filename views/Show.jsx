@@ -50,12 +50,11 @@ class Show extends React.Component {
                   <a href='/products'><button id="back">Home</button></a>
                             <br/><br/>
 
-                        <nav id="buy">
                   <form action={`/products/${this.props.product._id}?_method=PATCH`} method="POST">
                     { this.props.product.qty > 0 ? 
                     <input id="buy" type="submit" value="BUŸ - JustDoIt"/> : null }
                   </form> 
-                        </nav>
+                     
                  
                     
                     
