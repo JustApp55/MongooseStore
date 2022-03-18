@@ -1,8 +1,5 @@
 #body {
     background-color: #ffc6ff;
-    /* background-image: url(https://cdn.shopify.com/s/files/1/0028/3738/1209/files/Untitled_design_25_480x480.png?v=1611770120); */
-    /* background-repeat: no-repeat;
-    background-size: cover; */
     
 }
 
@@ -51,9 +48,6 @@
 
 
 
-/* #showd {
-    padding: 25px 30px 10px 30px; 
-} */
 
 #bar {
     font-size: 70px; 
@@ -69,14 +63,6 @@
     padding: 25px 50px 10px 700px; 
 }
 
-/* #buy {
-    position: fixed; left: 895px; top: 950px;
-    background-color: #09a80b;
-    color: white;
-    border-radius: 8px;
-    font-size: 15px;
-    padding: 8px 20px;
-} */
 
 #btn {
     position: fixed; left: 180px; bottom: 120px;

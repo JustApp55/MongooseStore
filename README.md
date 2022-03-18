@@ -23,8 +23,10 @@ Usage of the buttons
    - Click on the Home button to take you back to the Index page for further exploration
    - Click on Delete button to remove product 
    - Click on BUY button which will decrease the inventory by one.
-       
 
+### A video explaining my code
+![Video of code and app!](/public/Project2.mp4 "Project2 Video")
+       
 
 ## Built With
 This section lists any major framework/library used for this project
