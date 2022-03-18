@@ -69,14 +69,14 @@
     padding: 25px 50px 10px 700px; 
 }
 
-#buy {
+/* #buy {
     position: fixed; left: 895px; top: 950px;
     background-color: #09a80b;
     color: white;
     border-radius: 8px;
     font-size: 15px;
     padding: 8px 20px;
-}
+} */
 
 #btn {
     position: fixed; left: 180px; bottom: 120px;

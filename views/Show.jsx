@@ -35,7 +35,7 @@ class Show extends React.Component {
                       <br/>
                 
 
-                      <nav id="btn">
+                      <div id="btn">
                   <br/><br/><br/>
                     <a href={`/products/${this.props.product._id}/edit`}><button>Edit Product</button></a> 
                    
@@ -44,7 +44,7 @@ class Show extends React.Component {
                   <form action={`/products/${this.props.product._id}?_method=DELETE`} method="POST">
                          <input type="submit" value="DEŁETĘ"/>
                   </form>
-                      </nav>
+                     
                         <br/><br/>
 
                   <a href='/products'><button id="back">Home</button></a>
@@ -54,6 +54,7 @@ class Show extends React.Component {
                     { this.props.product.qty > 0 ? 
                     <input id="buy" type="submit" value="BUŸ - JustDoIt"/> : null }
                   </form> 
+                     </div>
                      
                  
                     
